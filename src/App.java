@@ -39,7 +39,7 @@ public class App {
   @Test
   public void naverTest() {
     driver.get("https://www.naver.com/");
-    driver.manage().window().setSize(new Dimension(1288, 1032));
+    driver.manage().window().setSize(new Dimension(1298, 1032));
     driver.findElement(By.id("query")).click();
     driver.findElement(By.id("query")).sendKeys("환율검색");
     driver.findElement(By.id("query")).sendKeys(Keys.ENTER);
