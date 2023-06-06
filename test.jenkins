@@ -1,0 +1,5 @@
+node {
+    stage('clone') {
+        git branch: 'master', credentialsId: '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', url: 'https://github.com/locking3456/JenkinsTest'
+    }
+}
